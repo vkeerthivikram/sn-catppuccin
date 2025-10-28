@@ -1,0 +1,257 @@
+/* Catppuccin Macchiato Theme for Standard Notes */
+/* Dark theme with vibrant rich colors */
+
+:root {
+  /* Catppuccin Macchiato Colors */
+  --ctp-rosewater: #F4DBD6;
+  --ctp-flamingo: #F0C6C6;
+  --ctp-pink: #F5BDE6;
+  --ctp-maroon: #EE99A0;
+  --ctp-red: #ED8796;
+  --ctp-peach: #F5A97F;
+  --ctp-yellow: #EED49F;
+  --ctp-green: #A6DA95;
+  --ctp-teal: #8BD5CA;
+  --ctp-sky: #91D7E3;
+  --ctp-sapphire: #7DC4E4;
+  --ctp-blue: #8AADF4;
+  --ctp-lavender: #B7BDF8;
+
+  /* Surface Colors */
+  --ctp-base: #24273A;
+  --ctp-mantle: #1E2030;
+  --ctp-crust: #181926;
+
+  /* Text Colors */
+  --ctp-text: #CAD3F5;
+  --ctp-subtext1: #B8C0E0;
+  --ctp-subtext0: #A5ADCB;
+  --ctp-overlay2: #939AB7;
+  --ctp-overlay1: #8087A2;
+  --ctp-overlay0: #6E738D;
+  --ctp-surface2: #5B6078;
+  --ctp-surface1: #494D64;
+  --ctp-surface0: #363A4F;
+
+  /* Standard Notes Style Variables */
+  --sn-stylekit-base-font-size: 15px;
+  
+  /* Background Colors */
+  --sn-stylekit-background-color: var(--ctp-base);
+  --sn-stylekit-surface-color: var(--ctp-mantle);
+  --sn-stylekit-border-color: var(--ctp-surface2);
+  --sn-stylekit-secondary-background-color: var(--ctp-crust);
+  
+  /* Text Colors */
+  --sn-stylekit-foreground-color: var(--ctp-text);
+  --sn-stylekit-secondary-foreground-color: var(--ctp-subtext1);
+  --sn-stylekit-contrast-color: var(--ctp-subtext0);
+  --sn-stylekit-muted-foreground-color: var(--ctp-overlay0);
+  
+  /* Editor Colors */
+  --sn-stylekit-editor-background-color: var(--ctp-base);
+  --sn-stylekit-editor-foreground-color: var(--ctp-text);
+  --sn-stylekit-editor-font-color: var(--ctp-text);
+  
+  /* Accent Colors */
+  --sn-stylekit-info-color: var(--ctp-blue);
+  --sn-stylekit-success-color: var(--ctp-green);
+  --sn-stylekit-warning-color: var(--ctp-yellow);
+  --sn-stylekit-danger-color: var(--ctp-red);
+  --sn-stylekit-neutral-color: var(--ctp-text);
+  
+  /* Component Colors */
+  --sn-stylekit-button-background-color: var(--ctp-surface1);
+  --sn-stylekit-button-background-color-hover: var(--ctp-surface2);
+  --sn-stylekit-button-background-color-active: var(--ctp-surface0);
+  --sn-stylekit-button-foreground-color: var(--ctp-text);
+  --sn-stylekit-button-foreground-color-active: var(--ctp-text);
+  
+  /* Navigation */
+  --sn-stylekit-sidebar-background-color: var(--ctp-mantle);
+  --sn-stylekit-sidebar-foreground-color: var(--ctp-text);
+  --sn-stylekit-navbar-background-color: var(--ctp-mantle);
+  --sn-stylekit-navbar-foreground-color: var(--ctp-text);
+  
+  /* Modal Colors */
+  --sn-stylekit-modal-background-color: var(--ctp-base);
+  --sn-stylekit-modal-foreground-color: var(--ctp-text);
+  --sn-stylekit-modal-border-color: var(--ctp-surface2);
+  
+  /* Typography */
+  --sn-stylekit-font-size-h1: 32px;
+  --sn-stylekit-font-size-h2: 28px;
+  --sn-stylekit-font-size-h3: 24px;
+  --sn-stylekit-font-size-h4: 20px;
+  --sn-stylekit-font-size-h5: 18px;
+  --sn-stylekit-font-size-h6: 16px;
+  --sn-stylekit-font-size-p: var(--sn-stylekit-base-font-size);
+  --sn-stylekit-font-size-editor: var(--sn-stylekit-base-font-size);
+  
+  /* Selection and Focus */
+  --sn-stylekit-selection-color: var(--ctp-lavender);
+  --sn-stylekit-focus-color: var(--ctp-blue);
+  --sn-stylekit-shadow-color: rgba(36, 39, 58, 0.5);
+  
+  /* Code */
+  --sn-stylekit-code-background-color: var(--ctp-mantle);
+  --sn-stylekit-code-foreground-color: var(--ctp-text);
+  
+  /* Link Colors */
+  --sn-stylekit-link-color: var(--ctp-blue);
+  --sn-stylekit-visited-link-color: var(--ctp-lavender);
+  
+  /* Form Elements */
+  --sn-stylekit-input-background-color: var(--ctp-base);
+  --sn-stylekit-input-foreground-color: var(--ctp-text);
+  --sn-stylekit-input-border-color: var(--ctp-surface2);
+  --sn-stylekit-input-border-color-focus: var(--ctp-blue);
+  
+  /* Tags and Labels */
+  --sn-stylekit-tag-background-color: var(--ctp-surface1);
+  --sn-stylekit-tag-foreground-color: var(--ctp-text);
+  --sn-stylekit-tag-border-color: var(--ctp-surface2);
+}
+
+/* Global Styles */
+body {
+  background-color: var(--ctp-base) !important;
+  color: var(--ctp-text) !important;
+}
+
+/* Editor Styles */
+.editor {
+  background-color: var(--ctp-base) !important;
+  color: var(--ctp-text) !important;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  background-color: var(--ctp-mantle) !important;
+  color: var(--ctp-text) !important;
+}
+
+/* Navigation Styles */
+.nav {
+  background-color: var(--ctp-mantle) !important;
+  color: var(--ctp-text) !important;
+}
+
+/* Modal Styles */
+.modal {
+  background-color: var(--ctp-base) !important;
+  color: var(--ctp-text) !important;
+  border: 1px solid var(--ctp-surface2) !important;
+}
+
+/* Button Styles */
+button {
+  background-color: var(--ctp-surface1) !important;
+  color: var(--ctp-text) !important;
+  border: 1px solid var(--ctp-surface2) !important;
+}
+
+button:hover {
+  background-color: var(--ctp-surface2) !important;
+}
+
+button:active {
+  background-color: var(--ctp-surface0) !important;
+}
+
+/* Input Styles */
+input, textarea {
+  background-color: var(--ctp-base) !important;
+  color: var(--ctp-text) !important;
+  border: 1px solid var(--ctp-surface2) !important;
+}
+
+input:focus, textarea:focus {
+  border-color: var(--ctp-blue) !important;
+  outline: 1px solid var(--ctp-blue) !important;
+}
+
+/* Link Styles */
+a {
+  color: var(--ctp-blue) !important;
+}
+
+a:visited {
+  color: var(--ctp-lavender) !important;
+}
+
+/* Code Styles */
+code {
+  background-color: var(--ctp-mantle) !important;
+  color: var(--ctp-text) !important;
+}
+
+pre {
+  background-color: var(--ctp-mantle) !important;
+  color: var(--ctp-text) !important;
+  border: 1px solid var(--ctp-surface2) !important;
+}
+
+/* Selection Styles */
+::selection {
+  background-color: var(--ctp-lavender) !important;
+  color: var(--ctp-text) !important;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  background-color: var(--ctp-mantle) !important;
+  width: 8px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--ctp-surface2) !important;
+  border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--ctp-overlay0) !important;
+}
+
+/* Syntax Highlighting */
+.markdown-preview code {
+  color: var(--ctp-text) !important;
+  background-color: var(--ctp-mantle) !important;
+}
+
+.markdown-preview pre {
+  background-color: var(--ctp-mantle) !important;
+  color: var(--ctp-text) !important;
+  border: 1px solid var(--ctp-surface2) !important;
+}
+
+/* Header Styles */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--ctp-text) !important;
+}
+
+/* Blockquote Styles */
+blockquote {
+  color: var(--ctp-subtext1) !important;
+  border-left: 4px solid var(--ctp-blue) !important;
+  background-color: var(--ctp-mantle) !important;
+}
+
+/* Table Styles */
+table {
+  border-color: var(--ctp-surface2) !important;
+}
+
+th, td {
+  border-color: var(--ctp-surface2) !important;
+}
+
+th {
+  background-color: var(--ctp-mantle) !important;
+  color: var(--ctp-text) !important;
+}
+
+/* Horizontal Rule */
+hr {
+  border-color: var(--ctp-surface2) !important;
+}
