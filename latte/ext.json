@@ -1,0 +1,15 @@
+{
+  "identifier": "com.sncommunity.catppuccin-latte",
+  "name": "Catppuccin Latte",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "Soothing pastel light theme (Latte flavor) - A warm and inviting light theme from the Catppuccin palette",
+  "url": "https://raw.githubusercontent.com/vkeerthivikram/sn-catppuccin/main/latte/dist/css/theme.css",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#EFF1F5",
+    "foreground_color": "#4C4F69",
+    "border_color": "#ACB0BE"
+  }
+}

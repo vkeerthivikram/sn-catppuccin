@@ -1,0 +1,15 @@
+{
+  "identifier": "com.sncommunity.catppuccin-macchiato",
+  "name": "Catppuccin Macchiato",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "Soothing pastel dark theme (Macchiato flavor) - A vibrant dark theme with rich, energetic colors",
+  "url": "https://raw.githubusercontent.com/vkeerthivikram/sn-catppuccin/main/macchiato/dist/css/theme.css",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#24273A",
+    "foreground_color": "#CAD3F5",
+    "border_color": "#8087A2"
+  }
+}

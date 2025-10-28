@@ -1,0 +1,15 @@
+{
+  "identifier": "com.sncommunity.catppuccin-frappe",
+  "name": "Catppuccin Frappé",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "Soothing pastel dark theme (Frappé flavor) - A comforting dark theme with cozy, warm colors",
+  "url": "https://raw.githubusercontent.com/vkeerthivikram/sn-catppuccin/main/frappe/dist/css/theme.css",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#303446",
+    "foreground_color": "#C6D0F5",
+    "border_color": "#838BA7"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "identifier": "com.sncommunity.catppuccin-mocha",
+  "name": "Catppuccin Mocha",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "Soothing pastel dark theme (Mocha flavor) - The darkest theme with warm, cozy tones",
+  "url": "https://raw.githubusercontent.com/vkeerthivikram/sn-catppuccin/main/mocha/dist/css/theme.css",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#1E1E2E",
+    "foreground_color": "#CDD6F4",
+    "border_color": "#7F849C"
+  }
+}
