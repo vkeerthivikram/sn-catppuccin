@@ -16,7 +16,7 @@ The darkest theme in the Catppuccin family with warm, cozy tones. Mocha provides
 2. Go to **Extensions** → **Import Extension**
 3. Paste this URL:
    ```
-   https://raw.githubusercontent.com/yourusername/sn-catppuccin/main/mocha/ext.json
+   https://raw.githubusercontent.com/vkeerthivikram/sn-catppuccin/main/mocha/ext.json
    ```
 4. Click **Import**
 

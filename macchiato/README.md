@@ -16,7 +16,7 @@ A rich and vibrant dark theme with energetic colors. Macchiato brings personalit
 2. Go to **Extensions** → **Import Extension**
 3. Paste this URL:
    ```
-   https://raw.githubusercontent.com/yourusername/sn-catppuccin/main/macchiato/ext.json
+   https://raw.githubusercontent.com/vkeerthivikram/sn-catppuccin/main/macchiato/ext.json
    ```
 4. Click **Import**
 

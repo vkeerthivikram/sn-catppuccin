@@ -16,7 +16,7 @@ A soothing dark theme with warm, comfortable colors. Frappé provides a cozy env
 2. Go to **Extensions** → **Import Extension**
 3. Paste this URL:
    ```
-   https://raw.githubusercontent.com/yourusername/sn-catppuccin/main/frappe/ext.json
+   https://raw.githubusercontent.com/vkeerthivikram/sn-catppuccin/main/frappe/ext.json
    ```
 4. Click **Import**
 

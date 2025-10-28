@@ -16,7 +16,7 @@ A warm and inviting light theme featuring the complete Catppuccin Latte palette.
 2. Go to **Extensions** → **Import Extension**
 3. Paste this URL:
    ```
-   https://raw.githubusercontent.com/yourusername/sn-catppuccin/main/latte/ext.json
+   https://raw.githubusercontent.com/vkeerthivikram/sn-catppuccin/main/latte/ext.json
    ```
 4. Click **Import**
 
