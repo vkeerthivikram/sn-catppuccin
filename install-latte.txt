@@ -1,0 +1,15 @@
+Copy this entire line and paste into Standard Notes → Extensions → Import Extension:
+
+https://raw.githubusercontent.com/vkeerthivikram/sn-catppuccin/main/latte/ext.json
+
+If that doesn't work, try:
+https://raw.githubusercontent.com/vkeerthivikram/sn-catppuccin/main/catppuccin-latte.json
+
+If that doesn't work, try the CSS directly:
+https://raw.githubusercontent.com/vkeerthivikram/sn-catppuccin/main/latte/dist/css/theme.css
+
+Troubleshooting steps:
+1. Make sure you're logged into Standard Notes
+2. Try clearing Standard Notes cache (close and reopen)
+3. Check if you have any extensions blocked
+4. Try importing in Standard Notes web app instead of desktop
