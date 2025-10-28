@@ -29,8 +29,7 @@ pids
 # Node modules
 node_modules/
 
-# Build outputs
-dist/
+# Build outputs (excluding theme dist folders)
 build/
 
 # Environment variables
