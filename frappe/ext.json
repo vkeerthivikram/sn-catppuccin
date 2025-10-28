@@ -6,6 +6,8 @@
   "version": "1.0.0",
   "description": "Soothing pastel dark theme (Frappé flavor) - A comforting dark theme with cozy, warm colors",
   "url": "https://raw.githubusercontent.com/vkeerthivikram/sn-catppuccin/main/frappe/dist/css/theme.css",
+  "download_url": "https://github.com/vkeerthivikram/sn-catppuccin/archive/refs/tags/1.0.0.zip",
+  "marketing_url": "https://github.com/vkeerthivikram/sn-catppuccin",
   "dock_icon": {
     "type": "circle",
     "background_color": "#303446",

@@ -6,6 +6,8 @@
   "version": "1.0.0",
   "description": "Soothing pastel dark theme (Macchiato flavor) - A vibrant dark theme with rich, energetic colors",
   "url": "https://raw.githubusercontent.com/vkeerthivikram/sn-catppuccin/main/macchiato/dist/css/theme.css",
+  "download_url": "https://github.com/vkeerthivikram/sn-catppuccin/archive/refs/tags/1.0.0.zip",
+  "marketing_url": "https://github.com/vkeerthivikram/sn-catppuccin",
   "dock_icon": {
     "type": "circle",
     "background_color": "#24273A",

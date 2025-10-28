@@ -6,6 +6,8 @@
   "version": "1.0.0",
   "description": "Soothing pastel dark theme (Mocha flavor) - The darkest theme with warm, cozy tones",
   "url": "https://raw.githubusercontent.com/vkeerthivikram/sn-catppuccin/main/mocha/dist/css/theme.css",
+  "download_url": "https://github.com/vkeerthivikram/sn-catppuccin/archive/refs/tags/1.0.0.zip",
+  "marketing_url": "https://github.com/vkeerthivikram/sn-catppuccin",
   "dock_icon": {
     "type": "circle",
     "background_color": "#1E1E2E",
